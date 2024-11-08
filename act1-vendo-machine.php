@@ -46,7 +46,7 @@
                 ?>
             </select>
             <label for="Quantity">Quantity: </label>
-            <input type="number" name="txtQuantity" id="txtQuantity" value="0">
+            <input type="number" name="txtQuantity" id="txtQuantity" value="0" min="0">
             
             <button type="submit" name="btnCheckOut">Check Out</button>
 
